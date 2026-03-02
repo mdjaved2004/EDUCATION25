@@ -1,0 +1,7 @@
+package com.education25.service.adminService.coursesControlService;
+
+import com.education25.model.adminModel.coursesControlModel.SubCourseImageGetInformationModel;
+
+public interface SubCourseContentUpdateImageViewService {
+	SubCourseImageGetInformationModel getSubcourseImageLinkService(String sub_course_short_id);
+}

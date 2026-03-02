@@ -1,0 +1,69 @@
+@charset "ISO-8859-1";
+
+button {
+	float: none;
+	margin: 0;
+}
+
+.heading_dlt {
+	display: inline;
+}
+
+.heading_update_add, .sub_heading_update_add, .add_subheading,
+	.add_heading, .remove-subheading, .remove-btn {
+	float: right;
+}
+
+.remove-btn {
+	margin: 0 5px 0;
+}
+
+.delete-btn {
+	margin: 0 0 0 4px;
+}
+
+.new-sub-heading-defination, .new-sub-heading-example {
+	margin: 0 0 30px 90px;
+}
+/*only for  admin_course_context_delet_context_show.jsp start */
+#second_nav {
+	position: relative;
+	top: 60px;
+	background: linear-gradient(to bottom right, #81c43e, #55dfdf, #905cc1, #ad5786);
+	text-align: center;
+	padding: 10px 0 20px 0;
+}
+
+#couse_name {
+	color: white;
+	font-size: 2.5rem;
+}
+
+#sub_course_name {
+	color: yellow;
+	font-size: 2rem;
+}
+
+#note {
+	color: black;
+	font-size: 1.5rem;
+	margin: 1rem 0 0 0;
+}
+
+#main_delete {
+	position: relative;
+}
+
+.last_option_button {
+	float: right;
+	margin-right: 10px;
+}
+
+.heading-container_last button {
+	width: 9rem;
+	margin-bottom: 2rem;
+}
+
+.heading-container {
+	margin-top: 2.5rem;
+}

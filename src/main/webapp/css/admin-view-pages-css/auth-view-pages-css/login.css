@@ -1,0 +1,176 @@
+@charset "ISO-8859-1";
+/*login_page.jsp,resister_page.jsp,
+admin_question_paper_templet.jsp and admin_question_update.jsp
+  use styling*/
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	background-image: linear-gradient(to right, #c699ae, #c4e0e0, #a4e2a4, #e2e298);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.message_error, .message {
+	font-size: 1.42rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.message_error {
+	color: #ff0000;
+}
+
+.message {
+	color: green;
+	font-weight: bold;
+}
+
+.container, .container1 {
+	width: 100%;
+	max-width: 400px;
+	/* background-color: #e90eed; */
+	background: linear-gradient(to left, #cfaff0, #a593f4, #5e8f8f);
+	border: 13px solid #5959a0;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+	padding: 20px 20px 12px 20px;
+}
+/*container1 use admin_question_paper_templet.jsp  */
+.container1 {
+	position: absolute;
+	top: 10px;
+	padding: 40px 20px 12px 40px;
+}
+
+h2 {
+	margin-bottom: 20px;
+	text-align: center;
+	color: #333;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: black;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	width: 95%;
+	font-size: 1rem;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-top: 5px;
+}
+
+input[type="number"] {
+	width: 90%;
+	font-size: 1rem;
+	padding: 5px;
+	border-radius: 4px;
+	margin-top: 5px;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #28a745;
+	color: white;
+	font-size: 1.1rem;
+}
+
+#button_register, #button_login {
+	text-decoration: none;
+	float: right;
+	margin-top: 8px;
+	border: none;
+	border-radius: 5px;
+	background-color: #636363;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+#button_register {
+	padding: 4px 12px 6px 12px;
+}
+
+#button_login {
+	padding: 6px 1.87rem 6px 1.87rem;
+}
+
+button:hover, #button_register:hover, #button_login:hover {
+	background-color: #0000ff;
+}
+
+#or {
+	margin-top: 5px;
+	text-align: center;
+	font-size: 1.3rem;
+	color: #333;
+}
+
+#sub-course-name {
+	padding: 4px;
+}
+
+#paper-name {
+	width: 88%;
+}
+
+.form_text {
+	font-size: 1.2rem;
+}
+
+#forget_password {
+	width: auto;
+	padding: 0 10px 0 10px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+#forget_password:hover {
+	font-size: 1.08rem;
+	color: blue;
+}
+
+#forget_password:active {
+	color: green;
+}
+
+@media ( max-width :700px) {
+	.container, .container1 {
+		max-width: 70%;
+		height: auto;
+		border: 5px solid #5959a0;
+	}
+	h2 {
+		font-size: 2rem;
+	}
+	label {
+		font-size: 1.2rem;
+		margin: 0;
+	}
+}

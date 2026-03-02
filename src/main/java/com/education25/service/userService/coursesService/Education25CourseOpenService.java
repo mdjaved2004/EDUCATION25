@@ -1,0 +1,8 @@
+package com.education25.service.userService.coursesService;
+
+import com.education25.model.userModel.coursesModel.SubCourseInformationGetModel;
+import com.education25.model.userModel.coursesModel.SubCourseOpenFormDataHoldModel;
+
+public interface Education25CourseOpenService {
+	SubCourseInformationGetModel subCourseInformationService(SubCourseOpenFormDataHoldModel subCourseOpenFormDataHoldModel);
+}

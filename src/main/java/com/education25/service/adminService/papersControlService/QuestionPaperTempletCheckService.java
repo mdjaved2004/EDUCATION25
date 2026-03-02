@@ -1,0 +1,8 @@
+package com.education25.service.adminService.papersControlService;
+
+import com.education25.model.adminModel.paperControlModel.QuestionPaperTempletCheckModel;
+
+public interface QuestionPaperTempletCheckService {
+	QuestionPaperTempletCheckModel checkInformationService(QuestionPaperTempletCheckModel quesPaperbasicInfoFormModel);
+	QuestionPaperTempletCheckModel validationService(QuestionPaperTempletCheckModel quesPaperbasicInfoFormModel);
+}

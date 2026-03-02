@@ -1,0 +1,35 @@
+@charset "UTF-8";
+#delete_button {
+	text-decoration: none;
+	width: 70%;
+	margin: 1rem 0 1rem 0;
+	border: none;
+	border-radius: 1rem;
+	background-color: #653c3c;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+#delete_button:hover {
+	background-color: #ff0000;
+}
+.course-info {
+    background-color: #f4f6f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+.course-info p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.course-info span {
+    font-weight: bold;
+    color: #007bff;
+}

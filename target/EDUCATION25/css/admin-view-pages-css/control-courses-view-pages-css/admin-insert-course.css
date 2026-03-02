@@ -1,0 +1,143 @@
+#heading{
+	width:100%;
+	height: auto;
+}
+#note {
+	font-size: 1.4rem;
+	margin: 0 0 2rem 1rem;
+	font-weight: bold;
+}
+
+
+.heading_level {
+	font-weight: bold;
+	display: block;
+	margin: 5px;
+}
+
+.heading_text {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin: 0 0 10px 5px;
+	background-color: #E9ECEF;
+	font-size: 17px;
+}
+
+.sub-heading {
+	margin: 5px 0 0 30px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.sub-heading-text {
+	width: 14rem;
+	height: 3rem;
+	font-size: 17px;
+	background-color: #E9ECEF;
+}
+
+.sub-heading-defination, .sub-heading-example {
+	width: 90%;
+	height: 20rem;
+	margin: 0 0 30px 60px;
+}
+
+.sub-heading-defination-text, .sub-heading-example-text {
+	width: 100%;
+	height: 100%;
+	background-color: #E9ECEF;
+	font-size: 17px;
+}
+
+button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin: 10px 5px 10px 15px;
+	padding: 10px 15px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+.add-sub-heading-button{
+	float:right;
+}
+button:hover {
+	background-color: #0056b3;
+}
+
+.remove-btn {
+	background-color: #591419;
+	transition: background-color 0.3s;
+	float : right;
+}
+
+.remove-btn:hover {
+	background-color: #ff0000;
+}
+
+.message_error, .message {
+	text-align: center;
+	margin: 15px 0 12px 0;
+	font-size: 20px;
+	font-weight: bold
+}
+
+.message_error {
+	color: red;
+}
+
+.message {
+	color: green;
+}
+
+.new-sub-heading-defination, .new-sub-heading-example {
+	margin: 0 0 30px 85px;
+}
+#add-heading-and-submit-div{
+	text-align: right;
+}
+@media ( max-width :980px) {
+	.heading_text {
+		width: 12rem;
+	}
+	.sub-heading-defination, .sub-heading-example {
+		margin: 0 0 30px 60px;
+	}
+}
+
+@media ( max-width :680px) {
+	.sub-heading-defination, .sub-heading-example {
+		height: 12rem;
+	}
+	.sub-heading {
+		margin: 0 0 0 21px;
+	}
+	.sub-heading-defination, .sub-heading-example {
+		width: 90%;
+		height: 16rem;
+		margin: 0 0 24px 45px;
+	}
+	.sub-heading-defination-text, .sub-heading-example-text {
+		width: 97%;
+	}
+}
+
+@media ( max-width :450px) {
+	.sub-heading {
+		margin: 0 0 0 6px;
+	}
+	.sub-heading-defination, .sub-heading-example {
+		margin: 0 0 24px 19px;
+	}
+	.heading_text {
+		width: 40%;
+	}
+	.sub-heading-text {
+		width: 50%;
+	}
+	.remove-btn {
+		width: 40%;
+	}
+}

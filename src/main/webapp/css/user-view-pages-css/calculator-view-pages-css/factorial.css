@@ -1,0 +1,101 @@
+@charset "ISO-8859-1";
+
+.form-group {
+	margin: 0.51rem 0 0 0;
+}
+
+.factorial_lable {
+	margin: 0 0 0 1rem;
+	font-size: 1.5rem;
+	color: black;
+}
+
+input[type="number"] {
+	width: 5rem;
+	font-size: 1.3rem;
+	height: 1.5rem;
+	border: 1px solid blue;
+	padding: 1px 0 0 4px;
+	border-radius: 4px;
+}
+
+button {
+	padding: 2px 20px 2px 20px;
+	margin: 1rem 0 0 2rem;
+	border: none;
+	border-radius: 5px;
+	background-color: #28a745;
+	color: white;
+	font-size: 1.1rem;
+}
+
+input[type="text"] {
+	width: 18rem;
+	font-size: 1.5rem;
+	height: 3rem;
+	background-color: #EDEDED;
+	border: 1px solid blue;
+	padding: 1px 0 0 8px;
+	margin: 0.5rem 0 0 2rem;
+	border-radius: 4px;
+}
+
+#factorial {
+	background-color: #EDEDED;
+	width: 7rem;
+	height: 2rem;
+}
+
+@media ( max-width :485px) {
+	.factorial_lable {
+		font-size: 1.4rem;
+		margin: 0 0 0 0.2rem;
+	}
+	#factorial {
+		width: 5rem;
+		height: 1.7rem;
+	}
+	input[type="text"] {
+		width: 15rem;
+		font-size: 1.2rem;
+		height: 2.4rem;
+		margin: 0.5rem 0 0 1rem;
+	}
+	.input_group input[type="number"] {
+		width: 5rem;
+		margin-top: 5px;
+		padding: 1px 0 0 4px;
+	}
+}
+
+@media ( max-width :390px) {
+	.lable {
+		font-size: 1rem;
+	}
+	.factorial_lable {
+		font-size: 1.4rem;
+	}
+	#factorial {
+		width: 6rem;
+		height: 1.8rem;
+		margin-left:1rem;
+		font-size: 1.5rem;
+	}
+	input[type="number"] {
+		width: 2.8rem;	
+	}
+	input[type="text"] {
+		width: 16rem;
+		font-size: 1.5rem;
+		height: 3rem;
+		margin: 0.5rem 0 0 1rem;
+	}
+	button {
+		margin: 1rem 0 0 0.5rem;
+	}
+	button {
+		padding: 5px 20px 5px 20px;
+		margin: 1rem 0 0 0.5rem;
+		font-size: 1.3rem;
+	}
+}

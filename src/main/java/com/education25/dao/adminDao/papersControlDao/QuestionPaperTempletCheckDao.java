@@ -1,0 +1,7 @@
+package com.education25.dao.adminDao.papersControlDao;
+
+import com.education25.model.adminModel.paperControlModel.QuestionPaperTempletCheckModel;
+
+public interface QuestionPaperTempletCheckDao {
+	QuestionPaperTempletCheckModel checkInformationDao(QuestionPaperTempletCheckModel quesPaperbasicInfoFormModel);
+}

@@ -1,0 +1,8 @@
+package com.education25.dao.userDao.coursesDao;
+
+import com.education25.model.userModel.coursesModel.SubCourseInformationGetModel;
+import com.education25.model.userModel.coursesModel.SubCourseOpenFormDataHoldModel;
+
+public interface Education25CourseOpenDao {
+	SubCourseInformationGetModel subCourseInformationDao(SubCourseOpenFormDataHoldModel subCourseOpenFormDataHoldModel);
+}

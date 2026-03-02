@@ -1,0 +1,8 @@
+package com.education25.service.adminService.coursesControlService;
+
+import com.education25.model.adminModel.coursesControlModel.SubCourseSubHeadingUpdateModel;
+
+public interface SubCourseContentUpdateSubHeadingService {
+	String updateSubHeadingService(SubCourseSubHeadingUpdateModel subCourseSubHeadingUpdateModel);
+	SubCourseSubHeadingUpdateModel checkValidation(SubCourseSubHeadingUpdateModel subCourseSubHeadingUpdateModel);
+}

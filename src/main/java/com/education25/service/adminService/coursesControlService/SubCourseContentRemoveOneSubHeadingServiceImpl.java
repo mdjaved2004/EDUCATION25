@@ -1,0 +1,12 @@
+package com.education25.service.adminService.coursesControlService;
+
+import com.education25.dao.adminDao.coursesControlDao.SubCourseContentRemoveOneSubHeadingDaoImpl;
+import com.education25.model.adminModel.coursesControlModel.SubCourseContentRemoveOneSubHeadingModel;
+
+public class SubCourseContentRemoveOneSubHeadingServiceImpl implements SubCourseContentRemoveOneSubHeadingService {
+
+	@Override
+	public String removeOneSubHeadingService(SubCourseContentRemoveOneSubHeadingModel removeOneSubHeadingModel) {
+		return new SubCourseContentRemoveOneSubHeadingDaoImpl().removeOneSubHeadingDao(removeOneSubHeadingModel);
+	}
+}

@@ -1,0 +1,8 @@
+package com.education25.service.userService.calculatorService;
+
+import com.education25.model.userModel.calculatorModel.MatrixSimpleCalculateResultReturnModel;
+import com.education25.model.userModel.calculatorModel.MatrixSimpleCalculateModel;
+
+public interface MatrixSimpleCalculateService {
+	MatrixSimpleCalculateResultReturnModel matrixSolve(MatrixSimpleCalculateModel matrixModel);
+}

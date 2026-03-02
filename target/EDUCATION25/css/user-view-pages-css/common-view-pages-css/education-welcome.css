@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+.second_nav {
+	margin-top: 10px;
+	/* background-color: #4CAF50; */
+	background: linear-gradient(to bottom right, #6b9d39, #3da8a8, #74489f, #934e74);
+	text-align: center;
+	padding: 20px 0;
+}
+
+.only_online_exam_nav_bar {
+	position: relative;
+	top: 60px;
+	margin-top: 0px;
+}
+
+#second_nav_id {
+	margin-top: 60px;
+}
+
+#first_heading {
+	color: white;
+	font-size: 45px;
+}
+
+#second_heading {
+	color: yellow;
+	font-size: 35px;
+}
+
+#login_message {
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.message_error {
+	color: red;
+	font-size: 30px;
+}
+
+.message {
+	color: green;
+	font-size: 30px;
+}
+
+@media ( max-width :1227px) {
+	#login_message {
+		font-size: 20px;
+	}
+	#first_heading {
+		font-size: 35px;
+	}
+	#second_heading {
+		font-size: 25px;
+	}
+}
+
+@media ( max-width :526px) {
+	#first_heading {
+		font-size: 25px;
+	}
+	#second_heading {
+		font-size: 22px;
+	}
+}

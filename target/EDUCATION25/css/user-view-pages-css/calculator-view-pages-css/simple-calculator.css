@@ -1,0 +1,109 @@
+@charset "ISO-8859-1";
+
+#container {
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#simple_calculator {
+	background-color: #333;
+	padding: 18px 19px 9px 20px;
+	border-radius: 12px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+	margin: 0 2px 2px 2px;
+	width: 96%;
+}
+
+.display {
+	width: auto;
+	height: 7.6rem;
+	background-color: #222;
+	color: white;
+	text-align: right;
+	padding: 7px 8px 7px 8px;
+	font-size: 2rem;
+	border-radius: 8px;
+	margin-bottom: 16px;
+}
+
+#input_box, #input_box2 {
+	width: 99%;
+	height: 60px;
+	font-size: 2rem;
+	/* text-align: right; */
+	padding-left: 5px;
+	outline: none;
+	border: none;
+}
+
+.row_container, #icon_show {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.cal_icon {
+	color: white;
+	border: none;
+	background-color: blue;
+	padding: 10px;
+	margin: 0 5px;
+	border-radius: 8px;
+	flex: 1;
+	font-size: 1.45rem;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.cal_icon:hover {
+	background-color: green;
+}
+
+.cal_icon:active {
+	background-color: #444;
+}
+
+.button {
+	background-color: #444;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-size: 1.45rem;
+	padding: 18px;
+	flex: 1;
+	margin: 0 5px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+	background-color: #555;
+}
+
+.button:active {
+	background-color: blue;
+}
+@media ( max-width :930px) {
+	#input_box, #input_box2 {
+		height: 48px;
+	}
+	.display {
+		height: 6.5rem;
+		padding: 8px;
+		margin-bottom: 10px;
+	}
+	#simple_calculator {
+		padding: 15px 19px 5px 20px;
+	}
+
+
+	#input_box, #input_box2 {
+		font-size: 1.8rem;
+	}
+	.cal_icon {
+		font-size: 1.2rem;
+	}
+}

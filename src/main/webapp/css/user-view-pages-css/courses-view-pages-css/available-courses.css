@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI,
+		Roboto, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+#main {
+	position: relative;
+	top: 95px;
+	left: 0;
+	width: 100%;
+	/*   border: 3px solid #8A63BE;  */
+	box-sizing: border-box;
+	overflow-wrap: break-word;
+	white-space: normal;
+	z-index: 0;
+	margin-bottom: 7rem;
+}
+
+section {
+	padding: 0 0 15px 0;
+}
+/* Mini-components section start*/
+.section {
+	color: black;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: #afc4c4;;
+	padding: 15px;
+	border: 9px solid #87adad;
+	box-sizing: border-box;
+}
+
+.section a {
+	color: white;
+}

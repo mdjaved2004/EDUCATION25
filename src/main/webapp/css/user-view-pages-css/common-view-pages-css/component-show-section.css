@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.section {
+	color: black;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-image: linear-gradient(to right, #c699ae, #c4e0e0, #a4e2a4, #e2e298);
+	flex-wrap: wrap;
+	padding: 15px;
+	border: 9px solid #87adad;
+	box-sizing: border-box;
+}
+
+.section a {
+	color: white;
+}
+
+.section .links_box a {
+	width: 4.4rem;
+	height: 4.4rem;
+	background-color: #28a1a1;
+	margin: 0.315rem;
+	border-radius: 0.6rem;
+	box-shadow: -11px 5px 30px rgba(0, 0, 0, .5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-align: center;
+	word-wrap: break-word;
+	white-space: normal;
+	padding: 0 3px 0 3px;
+}

@@ -1,0 +1,7 @@
+package com.education25.service.adminService.papersControlService;
+
+import com.education25.model.adminModel.paperControlModel.QuetionPaperFullInformationWithMessageErrorModel;
+
+public interface QuestionPaperQuestionDataGetService {
+	QuetionPaperFullInformationWithMessageErrorModel getInforService(String paper_name);
+}

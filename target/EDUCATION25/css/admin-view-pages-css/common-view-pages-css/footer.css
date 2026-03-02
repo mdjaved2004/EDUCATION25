@@ -1,0 +1,130 @@
+@charset "ISO-8859-1";
+
+main{
+	 min-height:84vh;
+	 max-height:auto;
+}
+#footer {
+	display: block;
+	position: relative;
+	margin-top: 5rem;
+	padding-bottom: 1rem;
+	background-color: #324a61;
+	color: white;
+	word-wrap: break-word;
+	text-align: left;
+	width: 100%;
+	height: auto;
+	z-index: 3;
+}
+
+#footer_course_section {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#footer_calculator {
+	margin: 12px 0 0 0;
+}
+
+#footer_calculator div {
+	margin: 0 0 0 12px;
+}
+
+.footer_courses {
+	display: inline-block;
+	margin: 15px 1rem 0 12px;
+}
+
+h2 {
+	font-size: 19px;
+	margin: 5px 0 2px 2px;
+	cursor: pointer;
+	transition: color 0.3s ease;
+}
+
+a {
+	color: white;
+}
+
+.footer_courses ul, #footer_calculator ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 5px 0 2px 12px;
+}
+
+.footer_courses li, #footer_calculator li {
+	font-size: 16px;
+	margin: 5px 0;
+	cursor: pointer;
+	transition: color 0.3s ease;
+}
+
+h2:hover, .footer_courses li:hover, #footer_calculator li a:hover {
+	color: #08dffff0;
+}
+
+.information-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width:100%;
+  margin:0;
+}
+  
+.information-container  div {
+  flex: 1 1 20%;
+  margin: 20px;
+} 
+	
+.information-links{
+	margin-right:0;
+}
+.information-about{
+	margin-left:0;
+}
+.information h3, .information h4 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.information-about p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.information-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.information-links li {
+  margin-bottom: 10px;
+}
+
+.information-links a {
+  color: #dddddd;
+  text-decoration: none;
+}
+
+.information-links a:hover {
+  text-decoration: underline;
+  color: #00bfff;
+}
+
+.information-contact p {
+  margin: 6px 0;
+}
+
+.information-social a {
+  margin:20px 10px 0 0;
+}
+
+.information-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+  padding-top: 15px;
+  font-size: 14px;
+}

@@ -1,0 +1,8 @@
+package com.education25.service.userService.calculatorService;
+
+import com.education25.model.userModel.calculatorModel.MatrixAdvanceCalculateModel;
+import com.education25.model.userModel.calculatorModel.MatrixAdvanceCalculateResultReturnModel;
+
+public interface MatrixAdvanceCalculateService {
+	MatrixAdvanceCalculateResultReturnModel matrixSolve(MatrixAdvanceCalculateModel matrixModel);
+}

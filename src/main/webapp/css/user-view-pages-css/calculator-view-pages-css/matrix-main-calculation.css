@@ -1,0 +1,218 @@
+@charset "ISO-8859-1";
+
+#Matrix_datails {
+	margin-top: 5px;
+	width: 100%;
+	display: flex;
+}
+
+#matrix_inputs {
+	width: 48%;
+	height: 600px;
+	margin-right: 8px;
+	background-color: #ffffff;
+	box-shadow: -5px 5px 30px rgba(0, 0, 0, .5);
+	border: 8px solid #808000;
+	border-radius: 9px;
+	overflow: scroll;
+}
+
+.matrix_input_group {
+	display: flex;
+	gap: 10px;
+	margin: 1rem 0 1rem 0;
+	flex-wrap: nowrap;
+}
+
+#matrix_record {
+	border-bottom: 8px solid #808000;
+}
+
+.section_heading {
+	text-align: center;
+	font-size: 22px;
+	padding-top: 7px;
+}
+
+.heading_name {
+	width: 100%;
+	height: 40px;
+	background: yellow;
+	box-sizing: border-box;
+}
+
+#matrix_include {
+	margin-left: 5px;
+}
+
+#result_box {
+	width: 50%;
+	height: 600px;
+	background-color: #ffffff;
+	box-shadow: -5px 5px 30px rgba(0, 0, 0, .5);
+	border: 8px solid #ff00ff;
+	border-radius: 9px;
+	overflow: hidden;
+	overflow: scroll;
+}
+
+#result_box {
+	border-bottom: 8px solid #ff00ff;
+}
+
+.input_group {
+	display: inline-block;
+}
+
+.form-group {
+	margin: 0.51rem 0 0 0;
+}
+
+label {
+	margin: 0 0 0 0.5rem;
+	font-size: 1.5rem;
+	color: black;
+}
+
+sub {
+	font-size: 1rem
+}
+
+.input_number, .r_maric_input {
+	width: 4rem;
+	font-size: 1.3rem;
+	height: 1.5rem;
+	border: 1px solid blue;
+	padding: 1px 0 0 4px;
+	border-radius: 4px;
+	margin-top: 4px;
+}
+
+.r_maric_input {
+	width: 5rem;
+}
+
+button {
+	padding: 2px 1.5rem 2px 1.5rem;
+	margin: 1rem 0 0 2rem;
+	border: none;
+	border-radius: 5px;
+	background-color: #28a745;
+	color: white;
+	font-size: 1.1rem;
+	/* float:right; */
+}
+
+#operator {
+	font-size: 1rem;
+	margin: 0 0 0.5rem 2.5rem;
+	width: 8rem;
+	border: 1px solid blue;
+}
+
+.select_matrix_box {
+	font-size: 1rem;
+	margin: 0 0 0 4rem;
+	width: 8rem;
+	border: 1px solid blue;
+}
+
+.result_values_text {
+	font-size: 1.5rem;
+}
+#result_value{
+	text-align: center;
+	font-size: 20px;
+}
+@media ( max-width :1318px) {
+	#Matrix_datails {
+		display: block;
+	}
+	#matrix_inputs, #result_box {
+		width: 98%;
+		height: 80vh;
+	}
+	
+	#result_box {
+		margin:10px 0 90px 0;
+	}
+	label {
+		margin: 0 0 0 1rem;
+	}
+	.input_number, .r_maric_input {
+		width: 5rem;
+		/* margin-top: 4px; */
+	}
+}
+@media ( max-width : 930px) {
+	#matrix_inputs, #result_box {
+		height: 74vh;
+	}
+}
+
+@media ( max-width : 690px) {
+	label {
+		margin: 0 0 0 0.5rem;
+		font-size: 1.3rem;
+	}
+	.input_number, .r_maric_input {
+		width: 4rem;
+	}
+}
+
+@media ( max-width : 590px) {
+	label {
+		margin: 0 0 0 0.2rem;
+	}
+	.input_number, .r_maric_input {
+		width: 3.3rem;
+	}
+	#operator {
+		margin: 0 0 0.6rem 2.6rem;
+	}
+}
+
+@media ( max-width : 490px) {
+	label {
+		margin: 0;
+	}
+	.input_number {
+		width: 2.5rem;
+	}
+	.matrix_input_group {
+		gap: 8px;
+		margin: 1rem 0 1rem 0;
+	}
+	.result_values_text {
+		font-size: 1.2rem;
+	}
+}
+
+@media ( max-width : 425px) {
+	label {
+		font-size: 1rem;
+	}
+	.input_number {
+		width: 2.8rem;
+		font-size: 1rem;
+		height: 1rem;
+		border: 1px solid blue;
+		padding: 2px 0 2px 2px;
+	}
+	.matrix_input_group {
+		gap: 3px;
+		margin: 1rem 0 1rem 0;
+	}
+	#operator {
+		margin: 0 0 0.6rem 2.9rem;
+	}
+}
+
+@media ( max-width : 380px) {
+	#operator {
+		width: 6rem;
+	}
+	.select_matrix_box {
+		width: 6rem;
+	}
+}

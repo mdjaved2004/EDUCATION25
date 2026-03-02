@@ -1,0 +1,8 @@
+package com.education25.dao.adminDao.coursesControlDao;
+
+import com.education25.model.adminModel.coursesControlModel.SubCourseContentUpdateFormModel;
+import com.education25.model.adminModel.coursesControlModel.SubCourseMainContentModel;
+
+public interface SubCourseContentUpdateViewDao {
+	SubCourseMainContentModel checkCourseAndSubCourseDao(SubCourseContentUpdateFormModel subCourseContentFormModel);
+}

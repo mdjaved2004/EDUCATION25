@@ -1,0 +1,8 @@
+package com.education25.service.adminService.coursesControlService;
+
+import com.education25.model.adminModel.coursesControlModel.SubCourseContentUpdateFormModel;
+import com.education25.model.adminModel.coursesControlModel.SubCourseMainContentModel;
+
+public interface  SubCourseContentUpdateViewService {
+	SubCourseMainContentModel checkCourseAndSubCourseServoice(SubCourseContentUpdateFormModel subCourseContentFormModel);
+}

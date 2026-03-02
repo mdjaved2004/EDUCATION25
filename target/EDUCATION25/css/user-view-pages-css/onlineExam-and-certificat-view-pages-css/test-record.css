@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+
+body {
+	margin-top: 50px;
+}
+
+.table-box{
+	width: 95%;
+	margin: 10px 5px 0 5px;
+	font-size: 16px;
+	text-align: left;
+	border: 1px solid black;
+	background-color: #b3a4dd;
+}
+.tr {
+	height: 35px;
+}
+
+td, th {
+	border: 1px solid black;
+	text-align: center;
+}
+.number {
+	width: 10%;
+}
+
+.name {
+	width: 39%;
+}
+
+.test_marks {
+	width: 10%;
+}
+
+.certificate {
+	width: 35%;
+}
+
+.certificate_submit-btn {
+	width: 90%;
+	padding: 6px;
+	margin: 10px 5px 10px;
+	float: right;
+	border: none;
+	border-radius: 10px;
+	background-color: #28a745;
+	cursor: pointer;
+	color: white;
+	font-size: 16px;
+}
+
+.certificate_submit-btn:active {
+	background-color: #0000ff;
+}
+
+@media ( max-width :1227px) {
+	.table {
+		width: 99%;
+		margin: 5px 0 0 2px;
+	}
+}
+
+@media ( max-width :500px) {
+	.table {
+		font-size: 14px;
+	}
+	.number {
+		width: 8%;
+	}
+	.name {
+		width: 32%;
+	}
+	.text_total_marks {
+		width: 18%;
+	}
+	.test_marks {
+		width: 13%;
+	}
+	.certificate {
+		width: 29%;
+	}
+	.certificate_submit-btn {
+		padding: 5px;
+		margin: 5px 3px 6px 7px;
+		border-radius: 5px;
+		font-size: 12px;
+	}
+}

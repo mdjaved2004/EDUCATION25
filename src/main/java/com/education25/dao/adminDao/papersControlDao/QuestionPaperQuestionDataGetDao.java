@@ -1,0 +1,7 @@
+package com.education25.dao.adminDao.papersControlDao;
+
+import com.education25.model.adminModel.paperControlModel.QuetionPaperFullInformationWithMessageErrorModel;
+
+public interface QuestionPaperQuestionDataGetDao {
+	QuetionPaperFullInformationWithMessageErrorModel getInforDao(String paper_name);
+}

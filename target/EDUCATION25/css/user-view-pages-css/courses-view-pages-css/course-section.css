@@ -1,0 +1,153 @@
+@charset "ISO-8859-1";
+
+.course_section {
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	overflow-x: auto;
+	overflow-y: hidden;
+	/* display: flex;  this apply to all corses flex*/
+}
+
+.course_heading {
+	/* margin:10px 0 0 12px;  after apply to .course_section{display: flex;}*/
+	margin: 10px 0 0 12px;
+	display: flex;
+	font-size: 1.6rem;
+	font-weight: bold;
+	align-items: left;
+}
+
+.course_container {
+	margin: 0 10px 0 10px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	width: max-content;
+}
+
+.course_box {
+	margin: 25px 0 0 10px;
+	text-align: center;
+	transform: translate(-50%, -50);
+	border-radius: 10px;
+	width: 20rem;
+	height: 20.5rem;
+	border-radius: 11px;
+	box-shadow: -11px 5px 30px rgba(0, 0, 0, .5);
+	box-sizing: border-box;
+	transition: 0s;
+}
+
+.add_image_container {
+	width: 20rem;
+	height: 12rem;
+}
+
+.image_button_open_course {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px 10px 0 0;
+	cursor: pointer;
+	border: none;
+}
+
+.subcourse_image {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+	border-radius: 10px 10px 0 0;
+}
+
+.without_image_container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+}
+
+.without_image_container_color0 {
+	background: linear-gradient(to left, #cfaff0, #a593f4, #5e8f8f);
+}
+
+.without_image_container_color1 {
+	background-image: linear-gradient(to right, #c699ae, #c4e0e0, #a4e2a4, #e2e298);
+}
+
+.without_image_container_color2 {
+	background-image: linear-gradient(to right, #9096df, #87e0d9, #96df96);
+}
+
+.subcourse_details {
+	width: 20rem;
+	height: 7.5rem;
+}
+
+.sub_course_heading {
+	margin: 0.4rem 0 0 0;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.course_box_color0 {
+	background-color: #B9CDE5;
+}
+
+.course_box_color1 {
+	background-color: #F2DCDB;
+}
+
+.course_box_color2 {
+	background-color: rgb(193, 207, 218);
+}
+
+.course_button, .exam_start {
+	width: 40%;
+	padding: 5px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 15px;
+	background-color: white;
+	color: black;
+	font-weight: 400;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.course_button:hover, .exam_start:hover {
+	color: white;
+	background-color: #0000ff;
+}
+
+.course_button:active, .exam_start:active {
+	background-color: green;
+}
+
+@media ( max-width :479px) {
+	.course_heading {
+		margin: 10px 0 0 5px;
+		font-size: 1.3rem;
+	}
+	.sub_course_heading {
+		font-size: 1rem;
+	}
+	.course_box {
+		/* margin: 25px 20px 0 10px;
+		width: 53vw;
+		height: 18rem;
+		font-size: 0.9rem; */
+		
+	}
+	.course_container {
+		margin-left: 0px;
+		gap: 10px;
+	}
+	.course_button, .exam_start {
+		margin: 1rem 0 0 0;
+	}
+}

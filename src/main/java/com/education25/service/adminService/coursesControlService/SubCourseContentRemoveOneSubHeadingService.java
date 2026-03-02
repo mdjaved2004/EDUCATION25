@@ -1,0 +1,7 @@
+package com.education25.service.adminService.coursesControlService;
+
+import com.education25.model.adminModel.coursesControlModel.SubCourseContentRemoveOneSubHeadingModel;
+
+public interface SubCourseContentRemoveOneSubHeadingService {
+	String removeOneSubHeadingService(SubCourseContentRemoveOneSubHeadingModel removeOneSubHeadingModel);
+}

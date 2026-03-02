@@ -1,0 +1,8 @@
+package com.education25.service.adminService.coursesControlService;
+
+import com.education25.model.adminModel.coursesControlModel.SubCourseImageUpdateModel;
+import com.education25.model.adminModel.coursesControlModel.SubCourseIdWithMessageErrorModel;
+
+public interface SubCourseContentAddImageService {
+	SubCourseIdWithMessageErrorModel updateImageService(SubCourseImageUpdateModel model);
+}

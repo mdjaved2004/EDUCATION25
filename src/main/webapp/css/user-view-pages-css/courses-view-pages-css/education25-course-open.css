@@ -1,0 +1,269 @@
+@charset "ISO-8859-1";
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	width: 100%;
+}
+
+#subject_bar {
+	position: fixed;
+	display: flex;
+	top: 70px;
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid black;
+	background-color: white;
+	box-sizing: border-box;
+	overflow-x: auto;
+	overflow-y: hidden;
+	gap: 30px;
+	scrollbar-width: none;
+	z-index: 1;
+}
+
+.subject_bar_itom {
+	position: relative;
+	color: black;
+	background-color: #8D8F96;
+	padding: 0 10px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin: 3px 0 3px 10px;
+	border-radius: 5px;
+	z-index: 2;
+}
+
+.subject_bar_itom_clickeble {
+	background-color: blue;
+	color:#FFFFFF;
+	font-weight:600;
+}
+
+.subject_bar_itom:hover {
+	color: white;
+}
+
+.subject_bar_itom:before {
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	top: 0;
+	width: 100%;
+	border-radius: 5px;
+	background-color: blue;
+	transform: scaleX(0);
+	z-index: -1;
+}
+
+.subject_bar_itom:hover:before {
+	transform: scaleX(1);
+}
+
+.subject_bar_itom:active:before {
+	background-color: green;
+}
+
+#menu_icon_link {
+	display: none;
+	cursor: pointer;
+}
+
+#course_context_open_menu {
+	color: blue;
+	margin: 1rem 0 0 0.8rem;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+#course_context_open_side_bar {
+	position: fixed;
+	top: 110px;
+	width: 15rem;
+	height: calc(100vh - 110px);
+	left: 0;
+	transition: left 0.3s ease;
+	background-color: #CFDCD9;
+	/* border-right: 5px solid #afacac; */
+	box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+	color: black;
+	overflow-y: auto;
+	overflow-x: auto;
+	scroll-behavior: smooth;
+	z-index: 1;
+}
+
+.heading_side_bar {
+	font-size: 1.2rem;
+	font-weight: 500;
+	margin: 0;
+	padding: 8px 0 0 8px;
+	text-transform: capitalize;
+}
+
+.Sub_heading_side_bar {
+	font-size: 1rem;
+	font-weight: 500;
+	margin: 0 0 5px 5px;
+	text-transform: capitalize;
+}
+
+.Sub_heading_side_bar a {
+	width:77%;
+	display:block;
+	text-decoration: none;
+	color: black;
+	padding: 0 1.5rem 0 1.5rem;
+	text-transform: capitalize;
+}
+
+.Sub_heading_side_bar a:hover {
+	background-color: #b4b4b5;
+}
+
+.Sub_heading_side_bar a.active {
+	background-color: #89889b;
+}
+
+#main {
+	position: absolute;
+	top: 110px;
+	width: calc(100vw - 16rem);
+	height: calc(100vh - 100px);
+	left: 15rem;
+	font-size: 20px;
+	white-space: normal;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	scrollbar-width: none;
+	z-index: 0;
+	background-image: linear-gradient(to left, #c699ae, #c4e0e0, #a4e2a4, #979769);
+}
+
+section {
+	font-size: 1rem;
+	margin: 0 0 0 1px;
+	word-wrap: break-word;
+	padding: 5px;
+	border: 10px solid #AFACAC;
+}
+
+section:target {
+	display: block;
+}
+
+.sub_heading_name_definition_div {
+	background-color: #d7d5d5;
+	/* background-color:#d38282; */
+	min-height: 10rem;
+	margin: 0 0 1rem 0;
+	border-radius: 10px;
+}
+
+.sub_heading_name_div {
+	word-wrap: break-word;
+	margin: 0 0 6px 0;
+}
+
+.sub_heading_name {
+	text-align: center;
+	display: block;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background-color: #a39f9f;
+	border-radius: 10px 10px 0 0;
+	padding: 5px;
+}
+
+.sub_heading_definition_div {
+	word-wrap: break-word;
+	padding: 5px;
+}
+
+.sub_heading_definition {
+	white-space: pre-wrap;
+	white-space: pre-wrap;
+}
+
+.sub_heading_example_div {
+	background-color: #d7d5d5;
+	word-wrap: break-word;
+	margin: 0 0 rem 0;
+	border-radius: 10px;
+	min-height: 5rem;
+}
+
+.sub_heading_example {
+	white-space: pre-wrap;
+	padding: 5px;
+}
+
+.sub_heading_example_div span {
+	display: flex;
+	/* top: 0; */
+	justify-content: space-between;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background-color: #a39f9f;
+	border-radius: 10px 10px 0 0;
+	padding: 5px;
+}
+
+.sub_heading_example_div span span {
+	display: inline-block;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.sub_heading_example_div span span span {
+	display: inline-block;
+	font-size: 1rem;
+}
+#video_text{
+	display:flex;
+	justify-content:center;
+	background-color:white;
+}
+#video_text a{
+	color:blue;
+	margin:5px 20px 5px 0;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+}
+@media ( max-width :930px) {
+}
+
+@media ( max-width :930px) {
+	section {
+		/* margin: 0 1px 0 1px; */
+		
+	}
+	#main {
+		left: 0;
+		width: 100%;
+	}
+	#menu_icon_link {
+		display: inline-block;
+	}
+	#course_context_open_menu {
+		margin: 0.3rem 0.5rem 0 0.5rem;
+		font-size: 2.2rem;
+	}
+	#course_context_open_side_bar {
+		left: -100%;
+	}
+	#course_context_open_side_bar li {
+		font-size: 1rem;
+	}
+	#course_context_open_side_bar.open {
+		left: 0;
+	}
+}

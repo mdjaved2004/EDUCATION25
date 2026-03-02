@@ -1,0 +1,12 @@
+package com.education25.service.adminService.papersControlService;
+
+import java.util.List;
+
+import com.education25.model.adminModel.paperControlModel.QuestionInformationWithMessageErrorModel;
+import com.education25.model.adminModel.paperControlModel.QuestionPaperQuestionDataModel;
+import com.education25.model.adminModel.paperControlModel.QuestionPaperTempletCheckModel;
+
+public interface QuestionPaperInsertService {
+	QuestionInformationWithMessageErrorModel questionPaperInsertService(QuestionPaperTempletCheckModel quesPaperbasicInfoFormModel, List<QuestionPaperQuestionDataModel> questionDataStrore, int adminId);
+	QuestionInformationWithMessageErrorModel validationService(List<QuestionPaperQuestionDataModel> questionDataStrore);
+}

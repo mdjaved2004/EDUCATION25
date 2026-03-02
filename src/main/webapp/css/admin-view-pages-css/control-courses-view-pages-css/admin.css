@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+
+.admin_list {
+    width: 100%;
+    display: flex;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.admin_list .span {
+    width: 45%;
+    padding: 0 0 0 5px;
+}
+
+.admin_list a, .button {
+    width: 25%;
+    text-decoration: none;
+}
+
+.btn, .btn_denger {
+    padding: 6px 0px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn {
+    background-color: #28A745;
+}
+
+.btn_denger {
+    background-color: #ff8080;
+}
+
+.btn:hover {
+    background-color: #0000ff;
+}
+
+.btn_denger:hover {
+    background-color: #ff0000;
+}
+
+
+@media (max-width:980px) {
+    .admin_list .span {
+        width: 55%;
+    }
+    .admin_list .span-cn {
+        width: 55%;
+        font-size:2rem;
+    }
+    .admin_list a {
+        width: 35%;
+    }
+    .admin_list .btn-cn {
+        width: 35%;
+        font-size:2rem;     
+    }
+    .admin_list {
+        margin:5px 0 30px 0;
+    }
+}
+
+@media (max-width:620px) {
+    .btn, .btn_denger {
+        width: 60%;
+    }
+    .admin_list a {
+        width: 40%;
+    }
+}
+
+@media (max-width:460px) {
+    .admin_list .span {
+        width: 60%;
+    }
+    
+    .btn, .btn_denger {
+        width: 90%;
+    }
+}

@@ -1,0 +1,125 @@
+@charset "ISO-8859-1";
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+.person1 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 138px;
+	color: white;
+}
+
+body {
+	background-color: skyblue;
+}
+
+main {
+	position: relative;
+	top: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: calc(100vh - 80px);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 20px 0 0 0;
+	background-color: rgb(170, 93, 93);
+	border-radius: 25px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 400px;
+	align-items: center;
+}
+
+.message_error {
+	color: red;
+	font-size: 20px;
+}
+
+.message {
+	color: green;
+	font-size: 20px;
+}
+/* Styling the profile picture box */
+#profile_picture_box_change {
+	background-color: #C1C1C1;
+	width: 4.5rem;
+	height: 4.5rem;
+	border-radius: 15%;
+	margin: 8px;
+	display: flex; /* Center content inside the child */
+	justify-content: center;
+	/* Horizontally center the content inside the child */
+	align-items: center;
+	/* Vertically center the content inside the child */
+}
+
+#default_pic_cange {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 4rem;
+	color: white;
+}
+
+.form-group {
+	margin-top: 12px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	width: 95%;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+input::placeholder {
+	color: black;
+	font-weight: 600;
+}
+
+button {
+	width: 7rem;
+	padding: 6px;
+	margin: 10px 5px 10px;
+	float: right;
+	border: none;
+	border-radius: 5px;
+	background-color: #28a745;
+	color: white;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #0000ff;
+}
+
+@media ( max-width :479px) {
+	.container {
+		margin-top: 5px;
+		max-width: 90%;
+		height: auto;
+		border: 5px solid blue;
+	}
+	label {
+		font-size: 1.2rem;
+		margin: 0 0 10px 5px;
+	}
+	input[type="text"], input[type="email"], input[type="password"] {
+		margin-left: 5px;
+		width: 90%;
+		font-size: 1rem;
+	}
+}

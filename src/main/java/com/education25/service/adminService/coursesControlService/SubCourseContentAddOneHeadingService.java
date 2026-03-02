@@ -1,0 +1,8 @@
+package com.education25.service.adminService.coursesControlService;
+
+import com.education25.model.adminModel.coursesControlModel.SubCourseContentAddOneHeadingFormModel;
+
+public interface SubCourseContentAddOneHeadingService {
+	String addOneHeadingService(SubCourseContentAddOneHeadingFormModel modelFormData);
+	SubCourseContentAddOneHeadingFormModel CheckValidationService(SubCourseContentAddOneHeadingFormModel modelFormData);
+}
