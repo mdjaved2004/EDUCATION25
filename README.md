@@ -89,14 +89,17 @@ Education25 provides a full-featured digital learning system including:
 
 ---
 
-## 👨‍💻 My Role
+## 👨‍💻 My Role (Personal Project)
 
-- Complete UI Design
-- Backend Development
-- Course Module Development
-- Exam Module Development
-- Certificate Generation System
-- Database Design & Management
+Education25 is a fully self-developed personal project where I handled the complete development lifecycle from design to deployment.
+
+- Designed and developed the complete frontend (HTML, CSS, JavaScript)
+- Implemented backend logic using Java (JSP & Servlets)
+- Designed relational database schema in MySQL
+- Developed dynamic course and exam modules
+- Built automated certificate generation system
+- Integrated advanced mathematical calculator features
+- Managed deployment on Apache Tomcat
 
 ---
 
